@@ -1,0 +1,35 @@
+section.fundo{
+    height: 450px;             
+}
+.cx-esquerda{
+    height: 450px;            
+}
+.cx-direita{
+    height: 450px;
+    background-image: url("../images/fundo-home.png");
+    background-size: 700px 500px;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.conteudo-texto{
+    margin-top: 90px;
+}
+.comece{
+    /* top: 0; */
+}
+footer{
+    height: 100px;
+    background-color: #73C72B;
+    margin: 0 auto;
+}
+#footer-social{
+  margin-right: 10px;
+}
+.img-money{
+    height: 110px;
+}
+.itensMenu{
+  /* align-items: right; */
+  margin-left: 420px;
+  position: relative;           
+}           
