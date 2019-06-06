@@ -1,6 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
 <?php include "head.php"; ?>
+=======
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reeduca</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+                 
+        }
+        
+        section.fundo{
+            height: 460px; 
+            
+        }
+        .cx-esquerda{
+            height: 450px;
+            
+        }
+        .cx-direita{
+            height: 450px;
+            background-image: url("images/fundo-home.png");
+            background-size: 700px 500px;
+            background-position: center; 
+            background-repeat: no-repeat;
+        }
+        .conteudo-texto{
+            margin-top: 90px;
+        }
+        .comece{
+            /* top: 0; */
+        }
+        footer{
+            height: 110px;
+            background-color: #73C72B;
+            margin: 0 auto;
+
+        }
+        .img-money{
+            height: 110px;
+        }
+
+            
+        
+    </style>
+</head>
+>>>>>>> 506e24d2dbaccac2e700fe3b37b7749a5f5d6037
 <body>
  
   <nav class="navbar navbar-expand-lg navbar-light ">
