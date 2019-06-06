@@ -1,9 +1,11 @@
 <footer>
-      <div class="foooter-info col-lg-6">
-        Copyright 2019 - Todos os direitos reservados.
+  <div class="row">
+      <div class="footer-copyright col-lg-8">   
+        <p>Copyright 2019 - Todos os direitos reservados.</p>
       </div>
-      <div class="footer-social col-lg-6">
-          <p align="right">
+      
+      
+        <div class="footer-social col-lg-4">          
           <span style="font-size: 48px; color: white;">
             <i class="fab fa-facebook"></i>
           </span>
@@ -15,7 +17,7 @@
           </span>
           <span style="font-size: 48px; color: white;">
             <i class="fab fa-youtube-square"></i>
-          </span>          
-          </p>
+          </span>
         </div>
-    </footer>
+  </div>
+</footer>

@@ -16,7 +16,7 @@
             <div class="conteudo-base col-lg-8">
                 <div class="row">
                     <div class="comece col-lg-4">
-                        <button type="button" class="btn btn-success comece">Success</button>
+                        <button type="button" class="btn btn-success comece">Comece hoje</button>
                     </div>
                     <div class="conheca col-lg-4">
                         <img class="img-money" src="images/dinheirinho.png" alt="conheca-nosso-programa">
