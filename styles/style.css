@@ -16,6 +16,9 @@ section.fundo{
     background-position: center; 
     background-repeat: no-repeat; */
 }
+.infoRemoney h3{
+    margin-left: 230px;
+}
 .cx-esquerda{
     height: 450px; 
     color: #707175;           
@@ -38,8 +41,7 @@ section.fundo{
     font-weight: bold;
 }
 .comece{
-    /* top: 0; */
-    width: 140px;    
+     width: 140px;    
 }
 .btn-success{
     background-color: #73C72B;
@@ -55,7 +57,18 @@ section.fundo{
     display: flex;
     margin: 0 auto;
 } */
-
+.jumbotron{
+    background-color: #73C72B;
+}
+.jumbotron .container{    
+    margin-left: 450px;
+}
+.card-body img{
+    margin-left: 30px;
+}
+.card-body a{
+    margin-left: 100px;
+}
 footer {
     position:absolute;
     background-color: #73C72B;
@@ -71,8 +84,8 @@ footer {
     /* margin-right: 1px; */
 }
 .img-money{
-    width: 295px;
-    height: 190px;
+    width: 170px; /* 295*/
+    height: 96px;/* 190*/
 }
 .img-remoney{
     width: 104px;

@@ -18,7 +18,7 @@
         </div>
         <div class="cx-direita-remoney col-lg-6">
             
-            <div class="infoRemoney">
+            <div class="infoRemoney">                
                 <h3>Vantagens</h3><br>
                 <h6>&#8226; Ao realizar qualquer dos cursos em nossa plataforma, você será remunerado com nossa moeda virtual e poderá utilizá-la na compra de novos cursos ou adquirir produtos em nossa rede de Parceiros associados.</h6>
                 <h6>&#8226; Ao realizar uma compra em uma das lojas afiliadas à Reeduca, você será convidado a responder uma pesquisa sobre sua experiência de compra.</h6>
