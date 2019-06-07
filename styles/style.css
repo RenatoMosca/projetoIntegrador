@@ -1,8 +1,24 @@
 section.fundo{
     height: 450px;             
 }
+.cx-esquerda-remoney{
+    height: 450px; 
+    color: #707175;           
+}
+.cx-direita-remoney{
+    height: 450px;
+    color: white;
+    background-color: #73C72B;
+    border: 1px solid #73C72B;
+    border-radius: .25rem;
+    /* background-image: url("../images/quadro-remoney.png");
+    background-size: 700px 500px;
+    background-position: center; 
+    background-repeat: no-repeat; */
+}
 .cx-esquerda{
-    height: 450px;            
+    height: 450px; 
+    color: #707175;           
 }
 .cx-direita{
     height: 450px;
@@ -14,8 +30,23 @@ section.fundo{
 .conteudo-texto{
     margin-top: 90px;
 }
+.conteudo-texto-remoney{
+    margin-top: 40px;
+}
+.destaque{
+    color: #73C72B;
+    font-weight: bold;
+}
 .comece{
     /* top: 0; */
+    width: 140px;    
+}
+.btn-success{
+    background-color: #73C72B;
+    border: none;
+}
+.quadro-direita-remoney{
+    background-color: #73C72B;
 }
 
 /* footer{
@@ -31,23 +62,26 @@ footer {
     bottom:0;
     width:100%;
 }
-#footer-copyright p{
+.footer-copyright p{
     padding-left: 47px;    
     padding-top: 25px;
     color: white;
 }
-
-#footer-social{    
-    margin-right: 10px;
+.footer-social{    
+    /* margin-right: 1px; */
 }
 .img-money{
-    height: 110px;
+    width: 295px;
+    height: 190px;
+}
+.img-remoney{
+    width: 104px;
+    height: 155px;    
 }
 .itensMenu{
   margin-left: 420px;
   position: relative;           
-}           
-
+}       
 .button{
     display: block;
     width: 100%;
