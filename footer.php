@@ -7,16 +7,16 @@
       
       
         <div class="footer-social col-lg-4">          
-          <span style="font-size: 48px; color: white;">
+          <span style="font-size: 38px; color: white;">
             <i class="fab fa-facebook"></i>
           </span>
-          <span style="font-size: 48px; color: white;">
+          <span style="font-size: 38px; color: white;">
             <i class="fab fa-instagram"></i>
           </span>
-          <span style="font-size: 48px; color: white;">
+          <span style="font-size: 38px; color: white;">
             <i class="fab fa-twitter"></i>
           </span>
-          <span style="font-size: 48px; color: white;">
+          <span style="font-size: 38px; color: white;">
             <i class="fab fa-youtube-square"></i>
           </span>
         </div>
