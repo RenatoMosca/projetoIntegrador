@@ -115,3 +115,59 @@ footer {
    .texto_blog{
     padding-top: 115px    
    }
+
+   
+
+   .textoBlog{
+       margin-top: 80px;
+   }
+
+   .posts{
+    margin-top: 80px;
+    border-radius: 25px;
+   }
+   .contato{
+    background-color: #7DB843;
+    margin-top: 70px;
+    border-radius: 25px;
+    border: 10px solid white;
+    margin-bottom: 102%;  
+   }
+
+   .tituloForm{
+    padding-top: 20px;
+    text-align: center;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+   }
+  
+   .subtitulo{
+    padding-top: 5px;
+    text-align: center;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white; 
+   }
+
+   .form_contato{
+    padding-top: 5px;     
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+   }
+  contato.form-group{
+    margin-bottom: -1rem;
+   }
+   .botao_contato{
+    padding-top: 34px;
+   }
+   .card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    border-radius: 25px;
+
+
+}
+    
