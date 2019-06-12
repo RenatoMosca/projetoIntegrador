@@ -203,3 +203,12 @@ footer {
     text-align: left;
   
 }
+.container-contato{
+    background-image: url('../images/contato.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fale1{
+    margin-left: 200px;
+    color: #707175;
+}
