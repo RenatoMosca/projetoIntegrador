@@ -70,7 +70,7 @@ section.fundo{
     margin-left: 100px;
 }
 footer {
-    position:absolute;
+ 
     background-color: #73C72B;
     bottom:0;
     width:100%;
@@ -168,6 +168,9 @@ footer {
     border-top-right-radius: calc(.25rem - 1px);
     border-radius: 25px;
 
-
 }
+.col-auto. img-fluid {
+    width: 170px;
+    height: 119px;   
+} 
     
