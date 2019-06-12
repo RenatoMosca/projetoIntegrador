@@ -17,10 +17,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="sobre.php">Sobre</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="coleta.php">Coleta</a>
-        </li>
+        </li>        
         <li class="nav-item">
           <a class="nav-link" href="blog.php">Blog</a>
         </li>
