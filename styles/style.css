@@ -159,9 +159,7 @@ footer {
   contato.form-group{
     margin-bottom: -1rem;
    }
-   .botao_contato{
-    padding-top: 34px;
-   }
+   
    .card-img-top {
     width: 100%;
     border-top-left-radius: calc(.25rem - 1px);
