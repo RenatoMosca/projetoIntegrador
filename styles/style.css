@@ -173,4 +173,33 @@ footer {
     width: 170px;
     height: 119px;   
 } 
+.cx-esquerda-sobre{
+    display: flex;
     
+}
+.destaqueSobre{
+    font-weight: bold; 
+    color:white;
+}
+.p-sobre{
+    /* width:400px; */
+    color: white;
+    width: 400px;
+}
+.cx-esquerda-sobre{
+    height: 450px; 
+    
+}
+.sobre-page{
+    background-image: url('../images/AdobeStock_101394950.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    right: 0;
+    text-align: left;
+  
+}
