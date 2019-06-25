@@ -4,8 +4,8 @@
 <body>
 
 <?php include "header.php"; ?>
-<!-- <section class="fundo col-lg-12"> -->
-<div class=sobre-page>
+<section class="fundo col-lg-12">
+<div class="sobre-page">
         <div class="row">
             <div class="cx-esquerda-sobre col-lg-6">
                 <div class="conteudo-texto2 col-lg-12">

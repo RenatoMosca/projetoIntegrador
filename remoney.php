@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<title>Remoney - Reeduca</title>
 <?php include "head.php"; ?>
 <body>
  

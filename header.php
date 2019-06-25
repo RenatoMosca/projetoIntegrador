@@ -28,7 +28,7 @@
           <a class="nav-link" href="login.php">EAD</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contato.php">Contato</a>
+          <a class="nav-link" href="contato2.php">Contato</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="login.php">Login</a>

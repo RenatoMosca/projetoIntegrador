@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<title>Cursos - Reeduca</title>
+	
 <?php include "head.php"; ?>
 <body>
  

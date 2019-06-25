@@ -92,7 +92,6 @@ footer {
     height: 155px;    
 }
 .itensMenu{
-  margin-left: 420px;
   position: relative;           
 }       
 .button{
@@ -167,7 +166,7 @@ footer {
     border-radius: 25px;
 
 }
-.col-auto. img-fluid {
+.col-auto .img-fluid {
     width: 170px;
     height: 119px;   
 } 
@@ -199,14 +198,64 @@ footer {
     padding: 3em;
     right: 0;
     text-align: left;
-  
+    max-width: 100%;
 }
-.container-contato{
-    background-image: url('../images/contato.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
+
+.formulario{
+    width: 380px;
+    max-width: 100%;
+    margin: 0 auto; // centraliza div
 }
-.fale1{
-    margin-left: 200px;
-    color: #707175;
+
+.navbar-expand-lg{
+    justify-content: space-between;
+}
+/* .contato1{
+    width: 380px;
+    max-width: 100%;
+    justify-content: left;
+} */
+
+.imagem_fundo_contato{
+    background-image: url('../images/bg-contato.jpg');
+    background-size: 1400px;
+    /* background-position: center;  */
+    /* background-repeat: no-repeat; */
+      
+}
+
+.form_contato1{
+    padding-top: 5px;  
+}
+
+.botao_contato{
+    padding-bottom: 74px;
+    padding-top: 27px;
+}
+.ladoDireito{
+    padding-top: 52px;
+    width: 380px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.ladoEsquerdo{
+    padding-top: 213px;
+    text-align: center;
+    width: 380px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
