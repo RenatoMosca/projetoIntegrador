@@ -25,6 +25,9 @@
           <a class="nav-link" href="loja.php">Loja</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="login.php">EAD</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="contato.php">Contato</a>
         </li>
         <li class="nav-item">
