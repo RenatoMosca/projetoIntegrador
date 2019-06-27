@@ -8,7 +8,7 @@
 <?php include "header.php"; ?>
 
 			<!-- -->
-			<section>
+			<section class="detalhe-produto">
 				<div class="container">
 
 					<div class="row nomargin">
@@ -56,7 +56,7 @@
                     <img src="images/curso-2.jpg" alt="curso-residuos"><br>
                   <?php endif; ?>
                   
-                  <a href="#" class="btn btn-danger">Comprar</a>
+                  <a href="#" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
               <ul class="nomargin">

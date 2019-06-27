@@ -1,3 +1,20 @@
+.home-page{
+    background-image: url('../images/fundo2-home.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    right: 0;
+    text-align: right;
+    max-width: 100%;
+}
+
+.detalhe-produto{
+    margin-top: 25px;
+}
 section.fundo{
     height: 450px;             
 }
@@ -6,18 +23,18 @@ section.fundo{
     color: #707175;           
 }
 .cx-direita-remoney{
-    height: 450px;
-    color: white;
-    background-color: #73C72B;
-    border: 1px solid #73C72B;
-    border-radius: .25rem;
-    /* background-image: url("../images/quadro-remoney.png");
-    background-size: 700px 500px;
-    background-position: center; 
-    background-repeat: no-repeat; */
+    margin-bottom: 16px;  
+    height: 74vh;
+    color: black;   
+    padding: 70px;    
 }
-.infoRemoney h3{
-    margin-left: 230px;
+.infoRemoney {
+    margin-left: 30px;
+    color: #707175;   
+    text-align: justify; 
+}
+.img-dinheiro{
+    align-items: center;
 }
 .cx-esquerda{
     height: 450px; 
@@ -31,8 +48,9 @@ section.fundo{
     background-repeat: no-repeat;
 }
 .conteudo-texto{
-    margin-top: 90px;
+    margin-top: 20px;
 }
+
 .conteudo-texto-remoney{
     margin-top: 40px;
 }
@@ -60,8 +78,9 @@ section.fundo{
 .jumbotron{
     background-color: #73C72B;
 }
-.jumbotron .container{    
-    margin-left: 450px;
+.jumbotron .container{
+    text-align: center;    
+    /* margin-left: 450px; */
 }
 .card-body img{
     margin-left: 30px;
@@ -88,8 +107,8 @@ footer {
     height: 96px;/* 190*/
 }
 .img-remoney{
-    width: 104px;
-    height: 155px;    
+    width: 105px;
+    height: 142px;    
 }
 .itensMenu{
   position: relative;           
