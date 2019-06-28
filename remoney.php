@@ -33,7 +33,7 @@
         </div>      
     </div>
 </section>
-    
+<?php include "funcoes.php"; ?>    
 <?php include "footer.php"; ?>
   </body>
 </html>

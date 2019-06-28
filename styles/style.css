@@ -265,16 +265,21 @@ footer {
     max-width: 100%;
     margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
 h1{
     font-family: Arial, Helvetica, sans-serif;
-   
 }
+
+#faixa{
+    display: none;
+    background-color: #73C72B;
+    color: white;
+}
+#faixa ul{
+    list-style-type: none;
+}
+
+/* @media (max-width:560px){
+    .faixa{
+        display: block;       
+     }
+} */

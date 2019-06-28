@@ -75,7 +75,7 @@
 			</section>
 			<!-- -->
 
-    
-<?php include "footer.php"; ?>
+			<?php include "funcoes.php"; ?>    
+			<?php include "footer.php"; ?>
   </body>
 </html>

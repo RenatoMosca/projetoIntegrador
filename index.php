@@ -3,9 +3,8 @@
 <title>Home - Reeduca</title>
 <?php include "head.php"; ?>
 <body class="home">
- 
-<?php include "header.php"; ?>
 
+<?php include "header.php"; ?>
 
 <section>
     <div class="home-page">
@@ -25,5 +24,7 @@
 
 
 <?php include "footer.php"; ?>
+<?php include "funcoes.php"; ?>
+
 </body>
 </html>
