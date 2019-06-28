@@ -196,28 +196,34 @@ footer {
 .destaqueSobre{
     font-weight: bold; 
     color:white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .p-sobre{
     /* width:400px; */
     color: white;
     width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .cx-esquerda-sobre{
     height: 450px; 
     
 }
-.sobre-page{
+.fundo{
     background-image: url('../images/AdobeStock_101394950.jpeg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     bottom: 0;
-    color: black;
-    left: 0;
-    overflow: auto;
-    padding: 3em;
-    right: 0;
-    text-align: left;
+}
+.fundo-texto-sobre{
+    padding-top: 52px;
+    /* background-color:#80808075; */
+    width: 450px;
+    text-align: center;
     max-width: 100%;
+    margin: 0 auto;
+    border-radius: 64px;
+    top: 23%;
+    position: relative;
 }
 
 .formulario{
