@@ -4,10 +4,11 @@
 <body>
 
 <?php include "header.php"; ?>
-<section class="fundo col-lg-12">
-<div class="sobre-page">
+
+<section class="fundo">
+<div>
         <div class="row">
-            <div class="cx-esquerda-sobre col-lg-6">
+            <div class="cx-esquerda-sobre col-lg-6">            
                 <div class="conteudo-texto2 col-lg-8">
                     <div class="fundo-texto-sobre">
                     <h1 class="destaqueSobre">Sobre a Reeduca</h1>
@@ -20,5 +21,6 @@
 </div>      
 </section>
 <?php include "footer.php"; ?>
+<?php include "funcoes.php"; ?>
 </body>
 </html>

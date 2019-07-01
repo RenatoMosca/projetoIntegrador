@@ -8,7 +8,7 @@
   <?php include "header.php"; ?>
 
 
-  <section class="fundo">
+  <section class="fundo-login">
     <div class="container">
       <div class="row">
         <form class="form_login formulario">
@@ -30,6 +30,7 @@
     
   </section>
   <?php include "footer.php"; ?>
+  <?php include "funcoes.php"; ?>
 
 </body>
 

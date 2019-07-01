@@ -11,12 +11,20 @@
     text-align: right;
     max-width: 100%;
 }
-
+.fundo{
+    background-image: url('../images/AdobeStock_101394950.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .detalhe-produto{
     margin-top: 25px;
 }
-section.fundo{
+section.fundo{   
     height: 482px;             
+}
+section.fundo-login{
+    height: 482px;    
+    padding: 30px;         
 }
 .cx-esquerda-remoney{
     height: 450px; 
@@ -198,12 +206,7 @@ footer {
     height: 450px; 
     
 }
-.fundo{
-    background-image: url('../images/AdobeStock_101394950.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    bottom: 0;
-}
+
 .fundo-texto-sobre{
     padding-top: 52px;
     /* background-color:#80808075; */
