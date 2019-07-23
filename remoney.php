@@ -31,9 +31,7 @@
             
         </div> 
       
-        <!-- <div class="img-dinheiro col-lg-2">
-                <p align="right"><img class="img-remoney" src="images/dinheirinho-remoney.png" alt="programa-remoney"></p>
-        </div>       -->
+        
     </div>
 </section>
 <?php include "funcoes.php"; ?>    

@@ -17,18 +17,23 @@
     text-align: right;
     max-width: 100%;
 }
-.carrosel{
-    position: relative;
-    background: black;
-    height: 319px;
-}
 
 @media  (max-width: 780px) {
     .home-page {
       background: none;
       overflow: auto;
     }
-  }
+
+    .imgcarrossel {
+        height: 242px;
+    }
+}
+
+/* CARROSSEL */
+.imgcarrossel{
+    height: 400px;
+}
+
 
 /* MENU */
 
@@ -87,6 +92,14 @@ section.fundo-login{
     height: 482px;    
     padding: 30px;         
 }
+.jumbotron{
+    background-color: #73C72B;
+}
+.jumbotron.container{
+    text-align: center;    
+    /* margin-left: 450px; */
+}
+/* FINAL PÁGINA LOJA */
 
 /* PÁGINA REMONEY */
 .descricao-remoney{
@@ -96,6 +109,9 @@ section.fundo-login{
     text-align: justify;
     line-height: 26px;         
 }
+.conteudo-inteiro-remoney{
+    display: flex;
+}
 .descricao-vantagem-remoney{
     margin-bottom: 16px;  
     height: 74vh;
@@ -104,9 +120,11 @@ section.fundo-login{
     font-family: Arial, Helvetica, sans-serif; 
     text-align: justify;
     line-height: 33px;
-    
+      
 }
-
+.remoneyCaixa{
+    margin-bottom: 70px;
+}
 #vantagem{
     color:#73C72B;
     text-transform: uppercase;
@@ -120,35 +138,23 @@ section.fundo-login{
     box-shadow: 1px 1px 11px 1px grey;
     background-color: #D8D8D8;
 }
-/* .textoVantagens {
-    margin-left: 30px;
-    color: #707175;   
-    line-height: 2;
-    font-size: large;
-    text-align: justify;
-    font-family: inherit;
-} */
+
+.conteudo-texto-remoney{
+    margin-top: 40px;
+}
+
 
 .imagem-conheca-remoney{
     padding-top: 44px;
 }
 
-.remoneyCaixa{
-    margin-bottom: 70px;
-}
-.conteudo-texto-remoney{
-    margin-top: 40px;
-}
 
-.conteudo-inteiro-remoney{
-    display: flex;
-}
 
-.img-dinheiro{
+/* .img-dinheiro{
     align-items: center;
-}
+} */
 
-
+/* FINAL PÁGINA REMONEY */
 
 .conteudo-texto{
     margin-top: 20px;
@@ -166,13 +172,7 @@ section.fundo-login{
 .quadro-direita-remoney{
     background-color: #73C72B;
 }
-.jumbotron{
-    background-color: #73C72B;
-}
-.jumbotron .container{
-    text-align: center;    
-    /* margin-left: 450px; */
-}
+
 .card-body img{
     margin-left: 30px;
 }
@@ -343,6 +343,5 @@ footer {
     max-width: 100%;
     margin: 0 auto;
 }
-
 
 

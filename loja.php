@@ -8,11 +8,6 @@
 
 <section>
 
-<!-- <div class="faixa">
-  <h1 class="display-4">Reeduca Cursos</h1>
-  <p class="lead">Porque a mudança começa primeiro em você</p>  
-</div> -->
-
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">Reeduca Cursos</h1>
