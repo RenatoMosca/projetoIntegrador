@@ -6,12 +6,43 @@
 
 <?php include "header.php"; ?>
 
+<!-- CARROSSEL DA PÁGINA HOME -->
+<section class="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+<!-- CONTEÚDO DA PÁGINA HOME -->
 <section>
     <div class="home-page">
         <div class="conteudo-texto col-lg-4">
-            <h2>Educar para <i class="destaque">renovar</i><br>nossos recursos naturais.</h2>
-            <h5>Você tem o poder</h5>
-            <p>Se você acredita em um mundo saudável, pacífico, digno e justo para todos, então estamos ao seu lado para alcançá-lo, seja agindo nas ruas, na internet, em pequenas comunidades, nas grandes salas do poder ou nos locais mais remotos do planeta. Se tem ideias para chegarmos lá mais rápido, queremos aprender com você. Vamo sonhar, planejar, e agir juntos.</p>
+            <h2 style= "font-size: 2rem; text-align: initial; font-family: inherit; padding-bottom: 31px ">
+            Educar para <i style="color: #73C72B; font-weight: bold;">renovar</i><br>
+            nossos recursos naturais.</h2>
+            <h5 style ="color: #73C72B; font-size: 28px; text-align: -webkit-auto; text-decoration: overline;">Você tem o poder</h5>
+            <p style="font-size: larger; text-align: justify; line-height: 43px;">
+            Se você acredita em um mundo saudável, pacífico, digno e justo para todos, então estamos ao seu lado para alcançá-lo, seja agindo nas ruas, na internet, em pequenas comunidades, nas grandes salas do poder ou nos locais mais remotos do planeta. Se tem ideias para chegarmos lá mais rápido, queremos aprender com você. Vamo sonhar, planejar e agir juntos.</p>
         </div>   
         <div class="comece col-lg-4">
             <button type="button" class="btn btn-success comece" onclick="javascript: location.href='remoney.php';">Comece hoje</button>

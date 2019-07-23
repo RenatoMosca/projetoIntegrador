@@ -42,7 +42,7 @@
     </div>
 </nav>
 
-<section id="faixa">
+<section id="menu_hamburger">
   <ul>
     <li><a href="index.php">Home <span class="sr-only">(current)</span></a></li> 
     <li><a href="sobre.php">Sobre</a></li> 

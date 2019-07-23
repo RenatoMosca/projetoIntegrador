@@ -1,6 +1,6 @@
 <script>
 function myFunction() {
-  var x = document.getElementById("faixa");
+  var x = document.getElementById("menu_hamburger");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {

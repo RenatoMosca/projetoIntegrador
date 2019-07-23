@@ -5,7 +5,7 @@
 
 <?php include "header.php"; ?>
 
-<section class="fundo">
+<section class="background-sobre">
 <div>
         <div class="row">
             <div class="cx-esquerda-sobre col-lg-6">            
