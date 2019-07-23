@@ -6,18 +6,16 @@
 
 <?php include "header.php"; ?>
 
+
 <!-- CARROSSEL DA PÁGINA HOME -->
 <section class="carousel">
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
+  <div class="carousel-inner imgcarrossel">
     <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="images/plastico_praia.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="images/lacre_lata.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

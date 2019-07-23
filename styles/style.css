@@ -1,5 +1,5 @@
 * {
-    padding: 0 !impotant;
+    padding: 0;
   }
 
 
@@ -34,9 +34,7 @@
     height: 400px;
 }
 
-
 /* MENU */
-
 #menu_hamburger{
     display: none;
     background-color: #E6E6E6;
@@ -45,49 +43,66 @@
 #menu_hamburger ul{
     list-style-type: none;
 }
-
 #menu_hamburger a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     color: black;
     text-transform: uppercase;
 }
-
 #menu_hamburger li{
     list-style-type: none;
     line-height: 35px;
 }
-
 .itensMenu{
     position: relative;           
-  }   
-
-
- 
+}   
 
 
 /* PÁGINA SOBRE */
-
 .background-sobre{
     background-image: url('../images/AdobeStock_101394950.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.cx-esquerda-sobre{
+    display: flex;    
+}
+.fundo-texto-sobre{
+    padding-top: 52px;
+    /* background-color:#80808075; */
+    width: 450px;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 64px;
+    top: 23%;
+    position: relative;
+}
+.destaqueSobre{
+    font-weight: bold; 
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p-sobre{
+    /* width:400px; */
+    color: white;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cx-esquerda-sobre{
+    height: 450px;     
+}
+/* FINAL PÁGINA SOBRE */
 
 /* PÁGINA LOJA */
 .display-4{
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    font-size: 2em;
-     
+    font-size: 2em;     
 }
-.detalhe-produto{
-    margin-top: 25px;
-}
-section.fundo{   
+/* section.fundo{   
     height: 482px;             
-}
+} */
 section.fundo-login{
     height: 482px;    
     padding: 30px;         
@@ -96,10 +111,15 @@ section.fundo-login{
     background-color: #73C72B;
 }
 .jumbotron.container{
-    text-align: center;    
-    /* margin-left: 450px; */
+    text-align: center;     
 }
 /* FINAL PÁGINA LOJA */
+
+/* PÁGINA DETALHE-CURSO */
+.detalhe-produto{
+    margin-top: 25px;
+}
+/* FINAL DETALHE-CURSO */
 
 /* PÁGINA REMONEY */
 .descricao-remoney{
@@ -119,8 +139,7 @@ section.fundo-login{
     padding-top: 46px; 
     font-family: Arial, Helvetica, sans-serif; 
     text-align: justify;
-    line-height: 33px;
-      
+    line-height: 33px;      
 }
 .remoneyCaixa{
     margin-bottom: 70px;
@@ -138,47 +157,42 @@ section.fundo-login{
     box-shadow: 1px 1px 11px 1px grey;
     background-color: #D8D8D8;
 }
-
 .conteudo-texto-remoney{
     margin-top: 40px;
 }
-
-
 .imagem-conheca-remoney{
     padding-top: 44px;
 }
-
-
-
-/* .img-dinheiro{
-    align-items: center;
-} */
-
 /* FINAL PÁGINA REMONEY */
 
-.conteudo-texto{
-    margin-top: 20px;
+/* PÁGINA CONTATO */
+.imagem_fundo_contato{
+    background-image: url('../images/bg-contato.jpg');
+    background-size: 1400px;     
 }
+.ladoDireito{
+    padding-top: 52px;
+    width: 380px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.ladoEsquerdo{
+    padding-top: 213px;
+    text-align: center;
+    width: 380px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.form_contato1{
+    padding-top: 5px;  
+}
+.botao_contato{
+    padding-bottom: 74px;
+    padding-top: 27px;
+}
+/* FINAL PÁGINA CONTATO */
 
-
-
-.comece{
-     width: 140px;    
-}
-.btn-success{
-    background-color: #73C72B;
-    border: none;
-}
-.quadro-direita-remoney{
-    background-color: #73C72B;
-}
-
-.card-body img{
-    margin-left: 30px;
-}
-.card-body a{
-    margin-left: 100px;
-}
+/* FOOTER */
 footer { 
     background-color: #73C72B;
     bottom:0;
@@ -189,159 +203,3 @@ footer {
     padding-top: 25px;
     color: white;
 }
-.footer-social{    
-    /* margin-right: 1px; */
-}
-.img-money{
-    width: 170px; /* 295*/
-    height: 96px;/* 190*/
-}
-.img-remoney{
-    width: 105px;
-    height: 142px;    
-}
-    
-.button{
-    display: block;
-    width: 100%;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    background-color:#7DB843;      
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    color: white;
-   }
-
-   .form_login{
-    padding-top: 115px;
-   }
-
-   .texto_blog{
-    padding-top: 115px    
-   } 
-
-   .textoBlog{
-       margin-top: 80px;
-   }
-
-   .posts{
-    margin-top: 80px;
-    border-radius: 25px;
-   }
-   .contato{
-    background-color: #7DB843;
-    margin-top: 70px;
-    border-radius: 25px;
-    border: 10px solid white;
-    margin-bottom: 102%;  
-   }
-
-   .tituloForm{
-    padding-top: 20px;
-    text-align: center;  
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    color: white;
-   }
-  
-   .subtitulo{
-    padding-top: 5px;
-    text-align: center;  
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    color: white; 
-   }
-
-   .form_contato{
-    padding-top: 5px;     
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: white;
-   }
-  contato.form-group{
-    margin-bottom: -1rem;
-   }
-   
-   .card-img-top {
-    width: 100%;
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
-    border-radius: 25px;
-
-}
-.col-auto .img-fluid {
-    width: 170px;
-    height: 119px;   
-} 
-.cx-esquerda-sobre{
-    display: flex;
-    
-}
-.destaqueSobre{
-    font-weight: bold; 
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.p-sobre{
-    /* width:400px; */
-    color: white;
-    width: 400px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.cx-esquerda-sobre{
-    height: 450px; 
-    
-}
-
-.fundo-texto-sobre{
-    padding-top: 52px;
-    /* background-color:#80808075; */
-    width: 450px;
-    text-align: center;
-    max-width: 100%;
-    margin: 0 auto;
-    border-radius: 64px;
-    top: 23%;
-    position: relative;
-}
-
-.formulario{
-    width: 380px;
-    max-width: 100%;
-    margin: 0 auto; // centraliza div
-}
-
-.navbar-expand-lg{
-    justify-content: space-between;
-}
-.imagem_fundo_contato{
-    background-image: url('../images/bg-contato.jpg');
-    background-size: 1400px;     
-}
-
-.form_contato1{
-    padding-top: 5px;  
-}
-
-.botao_contato{
-    padding-bottom: 74px;
-    padding-top: 27px;
-}
-.ladoDireito{
-    padding-top: 52px;
-    width: 380px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.ladoEsquerdo{
-    padding-top: 213px;
-    text-align: center;
-    width: 380px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-
