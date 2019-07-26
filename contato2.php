@@ -12,7 +12,7 @@
         <div class= "imagem_fundo_contato">
         <div class="container">
             <div class="row">
-                <div class = "ladoEsquerdo col-lg-8"> <h1> FALE CONOSCO</h1></div>
+                <div class = "ladoEsquerdo col-lg-8"> <h1 style="font-family: 'Cinzel', serif;"> FALE CONOSCO</h1></div>
                 <div class = "ladoDireito col-lg-4">
                 <form class="form_contato1">
                     <div class="form-group">

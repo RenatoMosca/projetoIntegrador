@@ -35,7 +35,7 @@
 
 							<!-- Pre-requisitos -->
 							<div class="heading-title heading-border">
-								<h4>Pre-requisitos</h4>
+								<h4 style="font-family: 'Cinzel', serif; font-size: 2.2em;">Pre-requisitos</h4>
 								<p class="font-lato size-12">O que preciso saber?</p>
 							</div>
 							<!-- /Pre-requisitos -->
