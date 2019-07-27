@@ -52,44 +52,84 @@
 
 
 /* PÁGINA SOBRE */
-.background-sobre{
-    background-image: url('../images/AdobeStock_101394950.jpeg');
+.titulo-sobre{
+    background-image:  url('../images/educacao-ambiental-1.jpg');
     background-repeat: no-repeat;
+    width: 827px;
+    height: 297px;
     background-size: cover;
+    opacity: initial;
+    border-width: 2px;
+    border-color: rgba(8, 8, 8, 0.664);
+    border-style: solid;
+    display: inline-block;
+
 }
-.cx-esquerda-sobre{
-    display: flex;    
-}
-.fundo-texto-sobre{
-    padding-top: 52px;
-    /* background-color:#80808075; */
-    width: 450px;
+.h1-sobre{
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 100%;
     margin: 0 auto;
     border-radius: 64px;
-    top: 23%;
     position: relative;
-}
-.destaqueSobre{
-    font-weight: bold; 
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.p-sobre{
-    /* width:400px; */
+    font-family: 'Cinzel', serif;
+    text-align: center;
     color: white;
-    width: 400px;
-    font-family: Arial, Helvetica, sans-serif;
+    top: 37%;
+    left: 0%;
+    font-stretch: extra-expanded;
+
 }
-.cx-esquerda-sobre{
-    height: 450px;     
+.h2-reeduca-sobre{
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    text-align: center;
+    top: 37%;
+    margin: 5%;
 }
-/* FINAL PÁGINA SOBRE */
+.img-sobre-txt{
+    background-image: url('../images/reciclagem.jpg');
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 350px;
+    background-size: 60%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texto-sobre-2{
+    font-family: 'Alegreya', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media  (max-width: 768px){
+    .h1-sobre{
+        top: 36%;
+    }
+}
+@media  (max-width: 540px){
+    .h1-sobre{
+        top: 7%;
+    }
+    .img-sobre-txt{
+        background-repeat: no-repeat;
+        width: 125px;
+        height: 60vh;
+        background-size: 60%;
+        background-position: center;
+    }
+}
+
+/* FINAL PÁGINA SOBRE  */
 
 /* PÁGINA LOJA */
 .display-4{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cinzel', serif;
     text-transform: uppercase;
     font-size: 2em;     
 }
@@ -195,6 +235,7 @@ footer {
     color: white;
 }
 
+<<<<<<< HEAD
 @media  (max-width: 780px) {
     .home-page {
       background: none;
@@ -204,4 +245,14 @@ footer {
     .imgcarrossel {
         height: 242px;
     }
+=======
+p {
+    font-family: 'Alegreya', serif;
+    font-size: 1.2em; 
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.2em;
+>>>>>>> 75644b265d403208f5385032ef9899670ff44eb8
 }
