@@ -1,8 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-light ">
-    <a class="navbar-brand" href="#"><img src="images/logo.png"></a>    
-
+    <!-- <a class="navbar-brand" href="#"><img src="images/logo.png"></a>     -->
+    <a class="p-2 flex-grow-1 bd-highlight" href="#"><img src="images/logo.png"></a>    
+    
     <div class="itensMenu float-right">
-      <button class="navbar-toggler" onclick="myFunction()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <button class="navbar-toggler" onclick="myFunction()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
   
@@ -40,7 +42,7 @@
         </ul>
       </div>
     </div>
-</nav>
+</nav> 
 
 <section id="menu_hamburger">
   <ul>
