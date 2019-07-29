@@ -1,25 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <title>Home - Reeduca</title>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+<?php include "head.php"; ?>   
+	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ecb540ebc9.js"></script>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <!-- ------------------------------------------------- -->
+<!-- ------------------------------------------------- -->
     <!-- Bloco importado do template -->
     <!-- ------------------------------------------------- -->
     <!-- WEB FONTS : use %7C instead of | (pipe) -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
-
-    <!-- CORE CSS -->
-    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-
-    <!-- THEME CSS -->
-    <link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+<!-- THEME CSS -->
+<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
 
     <!-- PAGE LEVEL SCRIPTS -->
@@ -29,40 +22,11 @@
     <!-- Bloco importado do template -->
     <!-- ------------------------------------------------- -->
 
-    
-</head>
 
 <body class="home">
 
 <?php include "header.php"; ?>
 
-
-	<!--
-		AVAILABLE BODY CLASSES:
-		
-		smoothscroll 			= create a browser smooth scroll
-		enable-animation		= enable WOW animations
-
-		bg-grey					= grey background
-		grain-grey				= grey grain background
-		grain-blue				= blue grain background
-		grain-green				= green grain background
-		grain-blue				= blue grain background
-		grain-orange			= orange grain background
-		grain-yellow			= yellow grain background
-		
-		boxed 					= boxed layout
-		pattern1 ... patern11	= pattern background
-		menu-vertical-hide		= hidden, open on click
-		
-		BACKGROUND IMAGE [together with .boxed class]
-		data-background="assets/images/boxed_background/1.jpg"
-	-->
-	<!-- <body class="smoothscroll enable-animation"> -->
-		<!-- wrapper -->
-		<!-- <div id="wrapper"> -->
-
-			
 			<section>
 				<div class="container">
 
@@ -135,12 +99,7 @@
 									<span class="txt">DEVELOPMENT</span>
 									<span class="num">3</span>
 								</a>
-							</div>
-
-
-													
-
-							
+							</div>						
 
 
 							<!-- SOCIAL ICONS -->
@@ -173,6 +132,10 @@
 
 						</div>
 
+						
+						
+						
+						
 						<!-- RIGHT -->
 						<div class="col-md-9 col-sm-9">
 

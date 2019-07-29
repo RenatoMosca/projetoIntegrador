@@ -24,7 +24,7 @@
             <a class="nav-link" href="sobre.php">Sobre</a>
           </li>        
           <li class="nav-item">
-            <a class="nav-link" href="blog-reeduca.php">Blog</a>
+            <a class="nav-link" href="blog-bkp.php">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="loja.php">Loja</a>
